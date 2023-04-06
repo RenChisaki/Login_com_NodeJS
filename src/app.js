@@ -1,12 +1,7 @@
-const express = require('express');
+const express = require("express");
+const routeHello = require("./router/rotahello")
+
 const app = express();
 
-
-app.get("/", (req,res)=>{
-    res.status(200).send("ola mundo!!");
-});
-
-
-app.listen(3000, (req,res) =>{
-    console.log("funcionou na porta http://localhost:3000");
-});
+app.use(routeHello);
+module.exports = app;
