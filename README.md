@@ -2,4 +2,4 @@
 Login utilizando node.js 
 
 
-**OBS**: no momento pretendo fazer só o backend, se der vontade tempo me arriscar no frontend também 
+**OBS**: no momento pretendo fazer só o backend, se der vontade me arrisco no frontend também 
